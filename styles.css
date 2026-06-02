@@ -1,0 +1,153 @@
+/*
+ * Awangan – Retro Theme
+ * Inspired by classic OS UI (Mac OS 9 / Windows XP) and typewriter aesthetics.
+ */
+
+/* --------------------------------------------------- */
+/* Global settings
+/* --------------------------------------------------- */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #e0e0e0;               /* Light gray reminiscent of old OS desktop */
+    font-family: "American Typewriter", "Courier Prime", "Courier New", Courier, monospace;
+    color: #000;
+    line-height: 1.5;
+}
+
+/* --------------------------------------------------- */
+/* Typography – typewriter vibe
+/* --------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "American Typewriter", "Courier Prime", "Courier New", Courier, monospace;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 0 #fff;   /* Slight emboss effect */
+}
+
+p, li, a {
+    font-family: "American Typewriter", "Courier Prime", "Courier New", Courier, monospace;
+    font-size: 14px;
+}
+
+/* --------------------------------------------------- */
+/* Layout – classic window look
+/* --------------------------------------------------- */
+header, nav, main, footer {
+    margin: 20px auto;
+    max-width: 900px;
+    background: #f0f0f0;
+    border: 2px solid #808080;      /* Gray border like old windows */
+    box-shadow: 3px 3px 0 #404040; /* Simple drop‑shadow for depth */
+    padding: 15px;
+}
+
+header {
+    background: #c0c0c0;            /* Toolbar‑like header */
+    border-bottom: 2px solid #808080;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    background: #d0d0d0;
+    padding: 5px;
+    border: 1px solid #808080;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 3px 8px;
+    border: 1px solid #808080;
+    background: #e8e8e8;
+}
+
+nav a:hover {
+    background: #fff;
+}
+
+/* --------------------------------------------------- */
+/* Button – retro OS style
+/* --------------------------------------------------- */
+button {
+    font-family: "American Typewriter", "Courier Prime", "Courier New", Courier, monospace;
+    font-size: 14px;
+    padding: 6px 12px;
+    border: 2px solid #808080;
+    background: #c0c0c0;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 0 #fff, inset -1px -1px 0 #404040;
+}
+
+button:hover {
+    background: #d8d8d8;
+}
+
+button:active {
+    box-shadow: inset 2px 2px 0 #404040, inset -2px -2px 0 #fff;
+    background: #a0a0a0;
+}
+
+/* --------------------------------------------------- */
+/* Footer – tiny classic look
+/* --------------------------------------------------- */
+footer {
+    text-align: center;
+    font-size: 12px;
+    background: #c0c0c0;
+    border-top: 2px solid #808080;
+}
+
+/* --------------------------------------------------- */
+/* Misc – old‑school form elements (if any)
+/* --------------------------------------------------- */
+input, textarea, select {
+    font-family: "American Typewriter", "Courier Prime", "Courier New", Courier, monospace;
+    border: 2px solid #808080;
+    background: #fff;
+    padding: 4px;
+}
+
+/* End of retro theme */
+
+/* --------------------------------------------------- */
+/* Retro OS UI enhancements */
+/* --------------------------------------------------- */
+
+/* Classic window container */
+.window {
+    border: 2px solid #808080; /* Gray border */
+    background: #f0f0f0;      /* Light window background */
+    box-shadow: 3px 3px 0 #404040; /* Simple drop‑shadow */
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+/* Title bar for windows */
+.title-bar {
+    background: #c0c0c0;      /* Toolbar‑like header */
+    border-bottom: 2px solid #808080;
+    padding: 4px 8px;
+    font-weight: bold;
+    font-family: "American Typewriter", "Courier Prime", "Courier New", Courier, monospace;
+    color: #000;
+}
+
+/* Adjust button hover/active to classic look */
+button {
+    background: #c0c0c0;
+    border: 2px solid #808080;
+    box-shadow: inset 1px 1px 0 #fff, inset -1px -1px 0 #404040;
+    cursor: pointer;
+    font-family: "American Typewriter", "Courier Prime", "Courier New", Courier, monospace;
+}
+button:hover {
+    background: #d8d8d8;
+}
+button:active {
+    box-shadow: inset 2px 2px 0 #404040, inset -2px -2px 0 #fff;
+    background: #a0a0a0;
+}
